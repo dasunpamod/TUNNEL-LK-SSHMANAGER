@@ -1,10 +1,9 @@
 ﻿#!/bin/bash
 #====================================================
-#	SCRIPT: SSHPLUS MANAGER CONNECTION
-#   DATE:  Dec 28 2020
-#	TRANSLATED BY:	JENBHIE
+#	SCRIPT: TUNNELLK SSH MANAGER
+# 
 #====================================================
-_lvk=$(wget -qO- https://raw.githubusercontent.com/jenbhie/SSH-PLUS-MANAGER/main/Install/version)
+_lvk=$(wget -qO- https://raw.githubusercontent.com/mracid-devs/TUNNEL-LK-SSHMANAGER/main/Install/version)
 IP=$(wget -qO- ipv4.icanhazip.com)
 IP2=$(wget -qO- http://whatismyip.akamai.com/)
 [[ "$IP" != "$IP2" ]] && ipdovps="$IP2" || ipdovps="$IP"
